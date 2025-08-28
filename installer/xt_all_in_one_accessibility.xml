@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf8"?>
+<xtcommerceplugin>
+
+    <code>xt_all_in_one_accessibility</code>
+    <version>1.0.0</version>
+    <type>law</type>
+
+    <title>All in One Accessibility</title>
+    <description>All in One Accessibility</description>
+    <icon>all-in-one-accessibility_logo.jpg</icon>
+
+    <developer>xt:Commerce</developer>
+    <url>https://www.xt-commerce.com</url>
+
+    <minimum_store_version>6.5.3</minimum_store_version>
+
+    <marketplace_link><![CDATA[https://addons.xt-commerce.com/index.php?page=product&info=8084]]></marketplace_link>
+    <documentation_link><![CDATA[https://xtcommerce.atlassian.net/wiki/spaces/MANUAL/pages/994508805]]></documentation_link>
+
+    <configuration>
+
+        <config>
+            <key>XT_AIOA_COLOR</key>
+            <value>#420083</value>
+            <type>textfield</type>
+            <de><title><![CDATA[Farbschema]]></title></de>
+            <en><title><![CDATA[Hex Color Code:]]></title></en>
+        </config>
+
+        <!-- Widget Custom Position enable disable -->
+
+        <config>
+            <key>XT_AIOA_IS_CUSTOM_POSITION</key>
+            <value>0</value>
+            <type>status</type>
+            <de><title><![CDATA[Aktivieren Sie die genaue Position des Barrierefreiheits-Widget-Icons:]]></title></de>
+            <en><title><![CDATA[Enable precise accessibility widget icon position:]]></title></en>
+        </config>
+
+        <!-- Positions -->
+
+        <config>
+            <key>XT_AIOA_POSITION</key>
+            <value>Bottom Right</value>
+            <type>dropdown</type>
+            <url>plg_xt_aioa_position</url>
+            <de><title><![CDATA[Wo möchten Sie das Barrierefreiheits-Icon auf Ihrer Website platzieren?]]></title></de>
+            <en><title><![CDATA[Where would you like to place the accessibility icon on your site?]]></title></en>
+        </config>
+
+        <!-- Custom Positions -->
+        <!-- Horizontal Distance -->
+        <config>
+            <key>XT_AIOA_CUSTOM_POSITION_HORIZONTAL</key>
+            <value>0</value>
+            <type>textfield</type>
+            <de><title><![CDATA[Horizontale Position (px)]]></title></de>
+            <en><title><![CDATA[Horizontal Position (px)]]></title></en>
+        </config>
+
+        <!-- Horizontal Type -->
+        <config>
+            <key>XT_AIOA_CUSTOM_POSITION_HORIZONTAL_TYPE</key>
+            <value>left</value>
+            <type>dropdown</type>
+            <url>url_XT_AIOA_CUSTOM_POSITION_HORIZONTAL_TYPE</url>
+            <de><title><![CDATA[Horizontale Richtung]]></title></de>
+            <en><title><![CDATA[Horizontal Direction]]></title></en>
+        </config>
+
+        <!-- Vertical Distance -->
+        <config>
+            <key>XT_AIOA_CUSTOM_POSITION_VERTICAL</key>
+            <value>0</value>
+            <type>textfield</type>
+            <de><title><![CDATA[Vertikale Position (px)]]></title></de>
+            <en><title><![CDATA[Vertical Position (px)]]></title></en>
+        </config>
+
+        <!-- Vertical Type -->
+        <config>
+            <key>XT_AIOA_CUSTOM_POSITION_VERTICAL_TYPE</key>
+            <value>top</value>
+            <type>dropdown</type>
+            <url>url_XT_AIOA_CUSTOM_POSITION_VERTICAL_TYPE</url>
+            <de><title><![CDATA[Vertikale Richtung]]></title></de>
+            <en><title><![CDATA[Vertical Direction]]></title></en>
+        </config>
+
+        <!-- Select Widget Size: -->
+
+        <config>
+            <key>XT_AIOA_WIDGET_SIZE</key>
+            <value>Regular Size</value>
+            <type>dropdown</type>
+            <url>url_XT_AIOA_WIDGET_SIZE</url>
+            <de><title><![CDATA[Widget-Größe]]></title></de>
+            <en><title><![CDATA[Select Widget Size:]]></title></en>
+        </config>
+
+        <!-- Icon Type -->
+
+        <config>
+            <key>XT_AIOA_ICON_TYPE</key>
+            <value>Icon Type 1</value>
+            <type>dropdown</type>
+            <url>url_XT_AIOA_ICON_TYPE</url>
+            <de><title><![CDATA[Symboltyp]]></title></de>
+            <en><title><![CDATA[Select Icon type:]]></title></en>
+        </config>
+
+        <!-- Enable Custom Size -->
+
+        <config>
+            <key>XT_AIOA_IS_CUSTOM_SIZE</key>
+            <value>0</value>
+            <type>status</type>
+            <de><title><![CDATA[Benutzerdefinierte Größe verwenden]]></title></de>
+            <en><title><![CDATA[Enable icon custom size:]]></title></en>
+        </config>
+
+        <!-- Icon Size -->
+        <config>
+            <key>XT_AIOA_ICON_SIZE</key>
+            <value>Medium</value>
+            <type>dropdown</type>
+            <url>url_XT_AIOA_ICON_SIZE</url>
+            <de><title><![CDATA[Symbolgröße]]></title></de>
+            <en><title><![CDATA[Select icon size for Desktop:]]></title></en>
+        </config>
+
+        <!-- Custom Icon Size -->
+
+        <config>
+            <key>XT_AIOA_CUSTOM_ICON_SIZE</key>
+            <value>20</value>
+            <type>textfield</type>
+            <de><title><![CDATA[Benutzerdefinierte Symbolgröße (px)]]></title></de>
+            <en><title><![CDATA[Custom Icon Size (px)]]></title></en>
+        </config>
+
+    </configuration>
+
+    <plugin_code>
+
+        <code>
+            <hook>javascript.php:bottom</hook>
+            <phpcode><![CDATA[ include _SRV_WEBROOT. _SRV_WEB_PLUGINS.'xt_all_in_one_accessibility/hooks/javascript.php_bottom.php'; ]]></phpcode>
+            <order>0</order>
+            <active>1</active>
+        </code>
+
+        <code>
+            <hook>accessibility_handler:AllinOneAccessibilityRegistry_init</hook>
+            <phpcode><![CDATA[ include _SRV_WEBROOT. _SRV_WEB_PLUGINS.'xt_all_in_one_accessibility/hooks/accessibility_handler_AllinOneAccessibilityRegistry_init.php'; ]]></phpcode>
+            <order>0</order>
+            <active>1</active>
+        </code>
+
+        <code>
+            <hook>admin_dropdown.php:dropdown</hook>
+            <phpcode><![CDATA[ include _SRV_WEBROOT. _SRV_WEB_PLUGINS.'xt_all_in_one_accessibility/hooks/admin_dropdown.php_dropdown.php'; ]]></phpcode>
+            <order>0</order>
+            <active>1</active>
+        </code>
+
+        <code>
+            <hook>adminHandler.php:_bottom</hook>
+            <phpcode><![CDATA[
+            require_once _SRV_WEBROOT._SRV_WEB_PLUGINS.'xt_all_in_one_accessibility/hooks/adminHandler.php__bottom.php';
+            ]]></phpcode>
+            <order>1</order>
+            <active>1</active>
+        </code>
+
+    </plugin_code>
+
+    <db_install><![CDATA[
+        include_once _SRV_WEBROOT . _SRV_WEB_PLUGINS. 'xt_all_in_one_accessibility/installer/install.php';
+    ]]></db_install>
+
+    <db_uninstall><![CDATA[
+        include_once _SRV_WEBROOT . _SRV_WEB_PLUGINS. 'xt_all_in_one_accessibility/installer/uninstall.php';
+    ]]></db_uninstall>
+
+    <minimumupdateversion>1.0.0</minimumupdateversion>
+
+</xtcommerceplugin>

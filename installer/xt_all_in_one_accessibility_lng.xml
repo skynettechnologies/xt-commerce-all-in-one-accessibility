@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="utf8"?>
+<xtcommerceplugin>
+    <language_content>
+
+        <phrase>
+            <key>TEXT_XT_ALL_IN_ONE_ACCESSIBILITY</key>
+            <class>both</class>
+            <de>
+                <value><![CDATA[All in One Accessibility]]></value>
+            </de>
+            <en>
+                <value><![CDATA[All in One Accessibility]]></value>
+            </en>
+        </phrase>
+
+        <phrase>
+            <key>XT_ALL_IN_ONE_ACCESSIBILITY</key>
+            <class>both</class>
+            <de>
+                <value><![CDATA[All in One Accessibility]]></value>
+            </de>
+            <en>
+                <value><![CDATA[All in One Accessibility]]></value>
+            </en>
+        </phrase>
+
+        <!-- New Fields -->
+
+        <!-- Color -->
+        <phrase>
+            <key>TEXT_XT_AIOA_COLOR</key>
+            <class>both</class>
+            <de><value><![CDATA[Farbschema]]></value></de>
+            <en><value><![CDATA[Hex Color Code]]></value></en>
+        </phrase>
+
+        <!-- Widget Custom Position enable disable -->
+
+        <phrase>
+            <key>TEXT_XT_AIOA_IS_CUSTOM_POSITION</key>
+            <class>both</class>
+            <de><value><![CDATA[Aktivieren Sie die genaue Position des Barrierefreiheits-Widget-Icons:]]></value></de>
+            <en><value><![CDATA[Enable precise accessibility widget icon position:]]></value></en>
+        </phrase>
+
+        <!-- Positions -->
+
+        <phrase>
+            <key>TEXT_XT_AIOA_POSITION</key>
+            <class>admin</class>
+            <de><value><![CDATA[Wo möchten Sie das Barrierefreiheits-Icon auf Ihrer Website platzieren?]]></value></de>
+            <en><value><![CDATA[Where would you like to place the accessibility icon on your site?]]></value></en>
+        </phrase>
+
+        <!-- Custom Positions -->
+        <phrase>
+            <key>XT_AIOA_POSITION_TOP_LEFT</key>
+            <class>admin</class>
+            <de><value><![CDATA[Oben Links]]></value></de>
+            <en><value><![CDATA[Top Left]]></value></en>
+        </phrase>
+        <phrase>
+            <key>XT_AIOA_POSITION_TOP_CENTER</key>
+            <class>admin</class>
+            <de><value><![CDATA[Oben Mitte]]></value></de>
+            <en><value><![CDATA[Top Center]]></value></en>
+        </phrase>
+        <phrase>
+            <key>XT_AIOA_POSITION_TOP_RIGHT</key>
+            <class>admin</class>
+            <de><value><![CDATA[Oben Rechts]]></value></de>
+            <en><value><![CDATA[Top Right]]></value></en>
+        </phrase>
+        <phrase>
+            <key>XT_AIOA_POSITION_MIDDLE_LEFT</key>
+            <class>admin</class>
+            <de><value><![CDATA[Mitte Links]]></value></de>
+            <en><value><![CDATA[Middle Left]]></value></en>
+        </phrase>
+        <phrase>
+            <key>XT_AIOA_POSITION_MIDDLE_RIGHT</key>
+            <class>admin</class>
+            <de><value><![CDATA[Mitte Rechts]]></value></de>
+            <en><value><![CDATA[Middle Right]]></value></en>
+        </phrase>
+        <phrase>
+            <key>XT_AIOA_POSITION_BOTTOM_LEFT</key>
+            <class>admin</class>
+            <de><value><![CDATA[Unten Links]]></value></de>
+            <en><value><![CDATA[Bottom Left]]></value></en>
+        </phrase>
+        <phrase>
+            <key>XT_AIOA_POSITION_BOTTOM_CENTER</key>
+            <class>admin</class>
+            <de><value><![CDATA[Unten Mitte]]></value></de>
+            <en><value><![CDATA[Bottom Center]]></value></en>
+        </phrase>
+        <phrase>
+            <key>XT_AIOA_POSITION_BOTTOM_RIGHT</key>
+            <class>admin</class>
+            <de><value><![CDATA[Unten Rechts]]></value></de>
+            <en><value><![CDATA[Bottom Right]]></value></en>
+        </phrase>
+
+        <!-- Select Widget Size: -->
+
+        <phrase>
+            <key>TEXT_XT_AIOA_SIZE_REGULAR</key>
+            <class>both</class>
+            <de><value><![CDATA[Reguläre Größe]]></value></de>
+            <en><value><![CDATA[Regular Size]]></value></en>
+        </phrase>
+        <phrase>
+            <key>TEXT_XT_AIOA_SIZE_OVERSIZE</key>
+            <class>both</class>
+            <de><value><![CDATA[Übergroße]]></value></de>
+            <en><value><![CDATA[Oversize]]></value></en>
+        </phrase>
+
+        <!-- Icon Type -->
+        <phrase>
+            <key>TEXT_XT_ICON_TYPE_1</key>
+            <class>both</class>
+            <de><value><![CDATA[Symboltyp 1]]></value></de>
+            <en><value><![CDATA[Icon Type 1]]></value></en>
+        </phrase>
+        <phrase>
+            <key>TEXT_XT_ICON_TYPE_2</key>
+            <class>both</class>
+            <de><value><![CDATA[Symboltyp 2]]></value></de>
+            <en><value><![CDATA[Icon Type 2]]></value></en>
+        </phrase>
+        <phrase>
+            <key>TEXT_XT_ICON_TYPE_3</key>
+            <class>both</class>
+            <de><value><![CDATA[Symboltyp 3]]></value></de>
+            <en><value><![CDATA[Icon Type 3]]></value></en>
+        </phrase>
+        <phrase>
+            <key>TEXT_XT_ICON_TYPE_4</key>
+            <class>both</class>
+            <de><value><![CDATA[Symboltyp 4]]></value></de>
+            <en><value><![CDATA[Icon Type 4]]></value></en>
+        </phrase>
+        <phrase>
+            <key>TEXT_XT_ICON_TYPE_5</key>
+            <class>both</class>
+            <de><value><![CDATA[Symboltyp 5]]></value></de>
+            <en><value><![CDATA[Icon Type 5]]></value></en>
+        </phrase>
+        <phrase>
+            <key>TEXT_XT_ICON_TYPE_6</key>
+            <class>both</class>
+            <de><value><![CDATA[Symboltyp 6]]></value></de>
+            <en><value><![CDATA[Icon Type 6]]></value></en>
+        </phrase>
+        <phrase>
+            <key>TEXT_XT_ICON_TYPE_7</key>
+            <class>both</class>
+            <de><value><![CDATA[Symboltyp 7]]></value></de>
+            <en><value><![CDATA[Icon Type 7]]></value></en>
+        </phrase>
+        <phrase>
+            <key>TEXT_XT_ICON_TYPE_8</key>
+            <class>both</class>
+            <de><value><![CDATA[Symboltyp 8]]></value></de>
+            <en><value><![CDATA[Icon Type 8]]></value></en>
+        </phrase>
+        <phrase>
+            <key>TEXT_XT_ICON_TYPE_9</key>
+            <class>both</class>
+            <de><value><![CDATA[Symboltyp 9]]></value></de>
+            <en><value><![CDATA[Icon Type 9]]></value></en>
+        </phrase>
+        <phrase>
+            <key>TEXT_XT_ICON_TYPE_10</key>
+            <class>both</class>
+            <de><value><![CDATA[Symboltyp 10]]></value></de>
+            <en><value><![CDATA[Icon Type 10]]></value></en>
+        </phrase>
+        <phrase>
+            <key>TEXT_XT_ICON_TYPE_11</key>
+            <class>both</class>
+            <de><value><![CDATA[Symboltyp 11]]></value></de>
+            <en><value><![CDATA[Icon Type 11]]></value></en>
+        </phrase>
+        <phrase>
+            <key>TEXT_XT_ICON_TYPE_12</key>
+            <class>both</class>
+            <de><value><![CDATA[Symboltyp 12]]></value></de>
+            <en><value><![CDATA[Icon Type 12]]></value></en>
+        </phrase>
+        <phrase>
+            <key>TEXT_XT_ICON_TYPE_13</key>
+            <class>both</class>
+            <de><value><![CDATA[Symboltyp 13]]></value></de>
+            <en><value><![CDATA[Icon Type 13]]></value></en>
+        </phrase>
+        <phrase>
+            <key>TEXT_XT_ICON_TYPE_14</key>
+            <class>both</class>
+            <de><value><![CDATA[Symboltyp 14]]></value></de>
+            <en><value><![CDATA[Icon Type 14]]></value></en>
+        </phrase>
+        <phrase>
+            <key>TEXT_XT_ICON_TYPE_15</key>
+            <class>both</class>
+            <de><value><![CDATA[Symboltyp 15]]></value></de>
+            <en><value><![CDATA[Icon Type 15]]></value></en>
+        </phrase>
+        <phrase>
+            <key>TEXT_XT_ICON_TYPE_16</key>
+            <class>both</class>
+            <de><value><![CDATA[Symboltyp 16]]></value></de>
+            <en><value><![CDATA[Icon Type 16]]></value></en>
+        </phrase>
+        <phrase>
+            <key>TEXT_XT_ICON_TYPE_17</key>
+            <class>both</class>
+            <de><value><![CDATA[Symboltyp 17]]></value></de>
+            <en><value><![CDATA[Icon Type 17]]></value></en>
+        </phrase>
+        <phrase>
+            <key>TEXT_XT_ICON_TYPE_18</key>
+            <class>both</class>
+            <de><value><![CDATA[Symboltyp 18]]></value></de>
+            <en><value><![CDATA[Icon Type 18]]></value></en>
+        </phrase>
+        <phrase>
+            <key>TEXT_XT_ICON_TYPE_19</key>
+            <class>both</class>
+            <de><value><![CDATA[Symboltyp 19]]></value></de>
+            <en><value><![CDATA[Icon Type 19]]></value></en>
+        </phrase>
+        <phrase>
+            <key>TEXT_XT_ICON_TYPE_20</key>
+            <class>both</class>
+            <de><value><![CDATA[Symboltyp 20]]></value></de>
+            <en><value><![CDATA[Icon Type 20]]></value></en>
+        </phrase>
+        <phrase>
+            <key>TEXT_XT_ICON_TYPE_21</key>
+            <class>both</class>
+            <de><value><![CDATA[Symboltyp 21]]></value></de>
+            <en><value><![CDATA[Icon Type 21]]></value></en>
+        </phrase>
+        <phrase>
+            <key>TEXT_XT_ICON_TYPE_22</key>
+            <class>both</class>
+            <de><value><![CDATA[Symboltyp 22]]></value></de>
+            <en><value><![CDATA[Icon Type 22]]></value></en>
+        </phrase>
+        <phrase>
+            <key>TEXT_XT_ICON_TYPE_23</key>
+            <class>both</class>
+            <de><value><![CDATA[Symboltyp 23]]></value></de>
+            <en><value><![CDATA[Icon Type 23]]></value></en>
+        </phrase>
+        <phrase>
+            <key>TEXT_XT_ICON_TYPE_24</key>
+            <class>both</class>
+            <de><value><![CDATA[Symboltyp 24]]></value></de>
+            <en><value><![CDATA[Icon Type 24]]></value></en>
+        </phrase>
+        <phrase>
+            <key>TEXT_XT_ICON_TYPE_25</key>
+            <class>both</class>
+            <de><value><![CDATA[Symboltyp 25]]></value></de>
+            <en><value><![CDATA[Icon Type 25]]></value></en>
+        </phrase>
+        <phrase>
+            <key>TEXT_XT_ICON_TYPE_26</key>
+            <class>both</class>
+            <de><value><![CDATA[Symboltyp 26]]></value></de>
+            <en><value><![CDATA[Icon Type 26]]></value></en>
+        </phrase>
+        <phrase>
+            <key>TEXT_XT_ICON_TYPE_27</key>
+            <class>both</class>
+            <de><value><![CDATA[Symboltyp 27]]></value></de>
+            <en><value><![CDATA[Icon Type 27]]></value></en>
+        </phrase>
+        <phrase>
+            <key>TEXT_XT_ICON_TYPE_28</key>
+            <class>both</class>
+            <de><value><![CDATA[Symboltyp 28]]></value></de>
+            <en><value><![CDATA[Icon Type 28]]></value></en>
+        </phrase>
+        <phrase>
+            <key>TEXT_XT_ICON_TYPE_29</key>
+            <class>both</class>
+            <de><value><![CDATA[Symboltyp 29]]></value></de>
+            <en><value><![CDATA[Icon Type 29]]></value></en>
+        </phrase>
+
+
+        <!-- Icon Size -->
+        <phrase>
+            <key>TEXT_XT_ICON_SIZE_BIG</key>
+            <class>both</class>
+            <de><value><![CDATA[Groß]]></value></de>
+            <en><value><![CDATA[Big]]></value></en>
+        </phrase>
+        <phrase>
+            <key>TEXT_XT_ICON_SIZE_MEDIUM</key>
+            <class>both</class>
+            <de><value><![CDATA[Mittel]]></value></de>
+            <en><value><![CDATA[Medium]]></value></en>
+        </phrase>
+        <phrase>
+            <key>TEXT_XT_ICON_SIZE_DEFAULT</key>
+            <class>both</class>
+            <de><value><![CDATA[Standard]]></value></de>
+            <en><value><![CDATA[Default]]></value></en>
+        </phrase>
+        <phrase>
+            <key>TEXT_XT_ICON_SIZE_SMALL</key>
+            <class>both</class>
+            <de><value><![CDATA[Klein]]></value></de>
+            <en><value><![CDATA[Small]]></value></en>
+        </phrase>
+        <phrase>
+            <key>TEXT_XT_ICON_SIZE_EXTRA_SMALL</key>
+            <class>both</class>
+            <de><value><![CDATA[Extra Klein]]></value></de>
+            <en><value><![CDATA[Extra Small]]></value></en>
+        </phrase>
+
+        <!-- Enable Custom Size -->
+        <phrase>
+            <key>TEXT_XT_AIOA_IS_CUSTOM_SIZE</key>
+            <class>both</class>
+            <de><value><![CDATA[Benutzerdefinierte Größe verwenden]]></value></de>
+            <en><value><![CDATA[Enable icon custom size:]]></value></en>
+        </phrase>
+
+        <!-- Custom Icon Size -->
+        <phrase>
+            <key>TEXT_XT_AIOA_CUSTOM_ICON_SIZE</key>
+            <class>both</class>
+            <de><value><![CDATA[Benutzerdefinierte Symbolgröße (px)]]></value></de>
+            <en><value><![CDATA[Custom Icon Size (px)]]></value></en>
+        </phrase>
+
+        <!-- Basic Action Buttons -->
+        <phrase>
+            <key>TEXT_XT_COC_ACCEPT</key>
+            <class>both</class>
+            <de><value><![CDATA[Annehmen]]></value></de>
+            <en><value><![CDATA[Accept]]></value></en>
+        </phrase>
+
+        <phrase>
+            <key>TEXT_XT_COC_DENY</key>
+            <class>both</class>
+            <de><value><![CDATA[Ablehnen]]></value></de>
+            <en><value><![CDATA[Deny]]></value></en>
+        </phrase>
+
+        <phrase>
+            <key>TEXT_XT_COC_MORE_INFO</key>
+            <class>both</class>
+            <de><value><![CDATA[Weitere Informationen]]></value></de>
+            <en><value><![CDATA[Detailed Information]]></value></en>
+        </phrase>
+
+    </language_content>
+</xtcommerceplugin>
+        <!-- pb version 1.0.0 -->
