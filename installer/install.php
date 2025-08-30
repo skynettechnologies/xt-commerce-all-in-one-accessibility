@@ -6,26 +6,16 @@ require_once _SRV_WEBROOT . _SRV_WEB_PLUGINS . 'xt_all_in_one_accessibility/clas
 
 global $db, $language, $store_handler;
 
-$supported_langs = array('de','en');
-$txt_dir = _SRV_WEBROOT.'plugins/xt_all_in_one_accessibility/installer/consent/';
-
-function _getFileContent($filename) {
-    $handle = fopen($filename, 'rb');
-    $content = fread($handle, filesize($filename));
-    fclose($handle);
-    return $content;
-}
-
-$bodies = array(
-    'de' => _getFileContent($txt_dir.'consent_de.txt'),
-    'en' => _getFileContent($txt_dir.'consent_en.txt'),
-    'all' => _getFileContent($txt_dir.'consent_en.txt')
-);
-
 $titles = array(
-    'de' => 'Zustimmung zur Verwendung von Cookies',
+    'de' => 'All-in-One-Barrierefreiheit®',
     'en' => 'All in One Accessibility®',
     'all' => 'All in One Accessibility®'
+);
+
+$bodies = array(
+    'de' => 'All-in-One-Barrierefreiheit® Modul erfolgreich installiert.',
+    'en' => 'All in One Accessibility® module successfully installed.',
+    'all' => 'All in One Accessibility® module successfully installed.'
 );
 
 $maxContentId = $db->GetOne("SELECT MAX(content_id) FROM ".TABLE_CONTENT_ELEMENTS);
@@ -34,7 +24,7 @@ $maxContentId++;
 
 // Check store id column exists
 $store_id_col_exists = $this->_FieldExists('content_store_id', TABLE_CONTENT_ELEMENTS);
-
+$supported_langs = ['de', 'en'];
 // Insert into content elements
 foreach($store_handler->getStores() as $store)
 {

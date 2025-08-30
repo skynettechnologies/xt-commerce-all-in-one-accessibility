@@ -1,26 +1,20 @@
 <?php
 /*
  #########################################################################
- #                       xt:Commerce Shopsoftware
+ #                       All in One Accessibility Plugin
  # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  #
- # Copyright 2021 xt:Commerce GmbH All Rights Reserved.
- # This file may not be redistributed in whole or significant part.
- # Content of this file is Protected By International Copyright Laws.
+ # Copyright 2025 Skynet Technologies USA LLC. All Rights Reserved.
+ # This file is part of the xt_all_in_one_accessibility plugin.
  #
- # ~~~~~~ xt:Commerce Shopsoftware IS NOT FREE SOFTWARE ~~~~~~~
- #
- # https://www.xt-commerce.com
- #
- # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- #
- # @copyright xt:Commerce GmbH, www.xt-commerce.com
+ # Unauthorized copying of this file, via any medium, is strictly prohibited.
+ # Proprietary and confidential.
  #
  # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  #
- # xt:Commerce GmbH, Maximilianstrasse 9, 6020 Innsbruck
- #
- # office@xt-commerce.com
+ # @author   Skynet Technologies USA LLC
+ # @website  https://www.skynettechnologies.com
+ # @contact  developer3@skynettechnologies.com
  #
  #########################################################################
  */

@@ -344,21 +344,21 @@
 
         <!-- Basic Action Buttons -->
         <phrase>
-            <key>TEXT_XT_COC_ACCEPT</key>
+            <key>TEXT_XT_AIOA_ACCEPT</key>
             <class>both</class>
             <de><value><![CDATA[Annehmen]]></value></de>
             <en><value><![CDATA[Accept]]></value></en>
         </phrase>
 
         <phrase>
-            <key>TEXT_XT_COC_DENY</key>
+            <key>TEXT_XT_AIOA_DENY</key>
             <class>both</class>
             <de><value><![CDATA[Ablehnen]]></value></de>
             <en><value><![CDATA[Deny]]></value></en>
         </phrase>
 
         <phrase>
-            <key>TEXT_XT_COC_MORE_INFO</key>
+            <key>TEXT_XT_AIOA_MORE_INFO</key>
             <class>both</class>
             <de><value><![CDATA[Weitere Informationen]]></value></de>
             <en><value><![CDATA[Detailed Information]]></value></en>
